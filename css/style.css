@@ -11,10 +11,6 @@
         text-decoration: none;
     }
     
-    p {
-        font-size: clamp(14px, 2vw, 24px);
-    }
-    
     section {
         width: 80%;
         margin: auto;
@@ -75,4 +71,22 @@
         color: white;
         text-align: center;
         padding: 10px 0 10px 0;
+    }
+    
+    @media (max-width: 768px) {
+        nav {
+            font-size: 16px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        nav {
+            font-size: 20px;
+        }
+        p {
+            font-size: 18px;
+        }
     }
