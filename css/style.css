@@ -42,6 +42,13 @@
     nav li>img {
         width: 100px;
     }
+   nav ul li {
+        padding-left: 20px;
+    }
+    
+    nav ul a {
+        color: white;
+    }
     
     nav li:nth-child(2) {
         margin-left: auto;
